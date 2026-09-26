@@ -27,7 +27,23 @@ body {
     text-decoration: none;
 }
 
+.title-section {
+    display: flex;
+    background-color: #1F2937;
+    padding: 12px 150px;
+}
 
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.title-description {
+    font-size: 14px;
+    color: #F9FAF8;
+    margin: 0;
+}
 
 
 
