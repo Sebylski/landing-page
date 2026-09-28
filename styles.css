@@ -1,9 +1,6 @@
-* {
-    font-family: "Roboto", sans-serif;
-}
-
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .padded {
@@ -123,6 +120,56 @@ body {
     font-weight: 700;
 }
 
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-right {
+    display: flex;
+    justify-content: end;
+    flex-basis: 250px;
+    align-items: center;
+}
+
+.sign-up-header {
+    margin: 0
+}
+.sign-up-text {
+    margin: 0;
+}
+
+.button-two {
+    background-color: #3882F6;
+    color: white;
+    padding: 7px 22px;
+    border-radius: 8px;
+    border: solid white 2px;
+}
+
+.blue-window {
+    display: flex;
+    border-radius: 10px;
+    flex-basis: 700px;
+    background-color: #3882F6;
+    padding: 30px 60px;
+    margin: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
 
 
 .title-image {
