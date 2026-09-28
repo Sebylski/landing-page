@@ -6,12 +6,15 @@ body {
     margin: 0;
 }
 
-.header {
-    display: flex;
-    background-color: #1F2937;
-    padding: 12px 150px;
+.padded {
+    padding: 10px 200px;
     justify-content: space-between;
     align-items: center;
+    display: flex;
+}
+
+.header {
+    background-color: #1F2937;
 }
 
 .header-logo {
@@ -21,16 +24,37 @@ body {
     margin: 0;
 }
 
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
 .header-link {
-    color: #F9FAF8;
+    color: #c8c8c8;
     font-size: 14px;
     text-decoration: none;
 }
 
+
 .title-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
-    padding: 12px 150px;
+    height: 300px;
+}
+
+.title-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.title-right {
+    display: flex;
+    flex-basis: 700px;
+    justify-content: center;
 }
 
 .title {
@@ -41,16 +65,22 @@ body {
 
 .title-description {
     font-size: 14px;
-    color: #F9FAF8;
+    color: #d7d7d7;
     margin: 0;
+}
+
+.button-one {
+    background-color: #3882F6;
+    color: white;
+    padding: 7px 22px;
+    border-radius: 8px;
+    border: none;
 }
 
 
 
-
-
 .title-image {
-    width: 200px;
+    width: 400px;
     height: auto;
 }
 
